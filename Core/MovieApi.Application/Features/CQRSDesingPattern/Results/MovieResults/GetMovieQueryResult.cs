@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MoviApi.Domain.Entities
+namespace MovieApi.Application.Features.CQRSDesingPattern.Results.MovieResults
 {
-    public class Movie
+    public class GetMovieQueryResult
     {
         public int MovieId { get; set; }
         public string Title { get; set; }
@@ -17,6 +17,5 @@ namespace MoviApi.Domain.Entities
         public DateTime ReleaseDate { get; set; }
         public string CreateYear { get; set; }
         public bool Status { get; set; }
-
     }
 }
